@@ -1,0 +1,121 @@
+.header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white ;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(230, 230, 230);
+    z-index: 100;
+}
+.left-section{
+    /* becouse this clas div, we need to flex first */
+    display: flex;
+    align-items: center;
+    
+}
+.hamburger-menu{
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.youtube-logo{
+    height: 25px;
+}
+.middle-section{
+    flex: 1;
+    margin-right: 40px;
+    max-width: 600px;
+    margin-left: 10px; 
+    display: flex;
+    align-items: center;
+    
+
+}
+.search-bar{
+    flex: 1;
+    width: 0px;
+    height: 36px;
+    padding-left: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 1px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.search-bar::placeholder{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.search-button{
+    height: 40px;
+    width: 66px;
+    background-color: rgb(215, 219, 223);
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 20px;
+}
+.search-icon{
+    height: 30px;
+    margin-top: 4px;
+}
+.search-icon-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(215, 219, 223);
+    border-width: 1px;
+}
+.voice-search-icon{
+    height: 25px;
+    margin-top: 1px;
+    margin-left: -2px;
+}
+.right-section{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0
+    ;
+}
+.upload-image{
+    height: 30px;
+}
+.youtube-apps{
+    height: 30px;
+}
+.notification-image{
+    height: 30px;
+}
+.notification-icon-continer{
+    position: relative;
+}
+.notification-count{
+    position: absolute;
+    top: -1px;
+    right: -3px;
+    background-color: red;
+    color: white;
+    font-family: roboto, Arial ;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    border-radius: 10px;
+
+}
+.youtube-profile-picture{
+    height: 40px;
+    border-radius: 20px;
+}
